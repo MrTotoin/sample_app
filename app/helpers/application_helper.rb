@@ -8,4 +8,8 @@ module ApplicationHelper
         "#{base_title} | #{@title}" #sino concatena las strings
       end
     end
+    
+    def logo
+      image_tag("logo.png", :alt => "Sample App", :class => "round")
+    end
 end
